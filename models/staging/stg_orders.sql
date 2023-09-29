@@ -4,10 +4,12 @@ o.orderid,o.orderdate,o.shipdate,o.shipmode,
 ordersellingprice - ordercostprice as orderprofit,
 o.ordercostprice, o.ordersellingprice,
 --from raw customer
+c.customerid,
 c.customername,
 c.segment,
 c.country,
 --from raw product
+p.productid,
 p.category,
 p.productname,
 p.subcategory
